@@ -9,7 +9,7 @@
 #include "speller/lookup/lookup.h"
 #include "third_party/nlohmann-json/json.hpp"
 
-using namespace OasisDigital;
+using namespace Speller;
 using namespace std;
 using json = nlohmann::json;
 

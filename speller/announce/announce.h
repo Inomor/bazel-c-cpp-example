@@ -3,7 +3,7 @@
 
 #include <string>
 
-namespace OasisDigital {
+namespace Speller {
 
 void announce(const std::string &word);
 

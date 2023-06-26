@@ -16,7 +16,7 @@ int main(int argc, char** argv) {
     word = argv[1];
   }
 
-  OasisDigital::announce(word);
+  Speller::announce(word);
 
   string dictionary_file = "spell.db";
 
@@ -24,7 +24,7 @@ int main(int argc, char** argv) {
     dictionary_file = env_override;
   }
 
-  OasisDigital::LookupEngine engine(dictionary_file, false);
+  Speller::LookupEngine engine(dictionary_file, false);
 
   if (engine.CheckEntry(word)) {
     cout << "Found it" << endl;

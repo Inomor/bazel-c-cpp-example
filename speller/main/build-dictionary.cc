@@ -26,7 +26,7 @@ const list<string> common_words{
 };
 
 int main(int argc, char **argv) {
-  OasisDigital::LookupEngine engine("spell.db", true);
+  Speller::LookupEngine engine("spell.db", true);
 
   for_each(common_words.begin(), common_words.end(),
            [&](const string &word) { engine.AddEntry(word); });

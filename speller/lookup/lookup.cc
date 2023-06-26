@@ -5,7 +5,7 @@
 
 #include "sqlite3.h"
 
-namespace OasisDigital {
+namespace Speller {
 
 using namespace std;
 
@@ -72,4 +72,4 @@ int LookupEngine::CheckEntry(const std::string &Word) {
   return retVal;
 }
 
-}  // namespace OasisDigital
+}  // namespace Speller

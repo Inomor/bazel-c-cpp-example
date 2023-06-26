@@ -6,7 +6,7 @@
 
 #include "sqlite3.h"
 
-namespace OasisDigital {
+namespace Speller {
 
 class LookupEngine {
   sqlite3 *database;
@@ -24,6 +24,6 @@ class LookupEngine {
   int CheckEntry(const std::string &word);
 };
 
-}  // namespace OasisDigital
+}  // namespace Speller
 
 #endif

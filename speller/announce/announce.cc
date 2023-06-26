@@ -10,7 +10,7 @@
 
 #include "speller/greeting/greeting.h"
 
-namespace OasisDigital {
+namespace Speller {
 
 void announce(const std::string &word) {
   std::time_t result = std::time(nullptr);
@@ -20,4 +20,4 @@ void announce(const std::string &word) {
   std::cout << get_greet(word) << std::endl;
 }
 
-}  // namespace OasisDigital
+}  // namespace Speller

@@ -10,7 +10,7 @@
 // namespace, for shorter test code files and because some test
 // machinery expects globaly unique test names anyway.
 
-using namespace OasisDigital;
+using namespace Speller;
 
 TEST(LookupEngineTest, CreateAndDestroy) {
   LookupEngine engine(":memory:", true);

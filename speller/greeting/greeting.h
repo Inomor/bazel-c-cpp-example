@@ -3,7 +3,7 @@
 
 #include <string>
 
-namespace OasisDigital {
+namespace Speller {
 
 std::string get_greet(const std::string &word);
 
